@@ -16,7 +16,7 @@ sinks:
     type: clickhouse
     database: logs
     table: my_table
-    endpoints: "http://10.129.0.26:8123"
+    endpoints: "http://10.129.0.28:8123"
     healthcheck: false
     compression: gzip
     skip_unknown_fields: true
